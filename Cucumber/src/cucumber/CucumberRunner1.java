@@ -13,7 +13,7 @@ import stepDefination.BackGround;
 
 @Parameters({"feature"})
 @Test()
-@CucumberOptions(features={"C:\\Users\\jmanera\\Documents\\Document\\Java work\\Cucumber\\features\\Myapplication.feature"},glue={"stepDefination"},plugin={"pretty", "html:target/output"/*"json:json_Output/cucmber.json"*//*"TestNG:testng/trial.xml"*/},dryRun=false,monochrome=true,strict=false,tags={"@FriendRequest","~@ProfilePicChange"})
+@CucumberOptions(features={"C:\\Users\\jmanera\\git\\Java1\\Java\\Cucumber\\features\\Myapplication.feature"},glue={"stepDefination"},plugin={"pretty", "html:target/output"/*"json:json_Output/cucmber.json"*//*"TestNG:testng/trial.xml"*/},dryRun=false,monochrome=true,strict=false,tags={"@FriendRequest"})
 public class CucumberRunner1  extends BaseClass{
 	/*static String a;
 	static
