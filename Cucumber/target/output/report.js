@@ -4,12 +4,6 @@ formatter.feature({
   "name": "Test Facebook Smoke Scenario",
   "description": "",
   "id": "test-facebook-smoke-scenario",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@FacebookTesting"
-    }
-  ]
+  "keyword": "Feature"
 });
 });
