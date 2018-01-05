@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/gherkin-2.12.2.jar" sourcepath="C:/Users/jmanera/AppData/Local/Temp/.org.sf.feeling.decompiler1515145796767/source/gherkin-2.12.2-sources-1515146704381.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/selenium-server-standalone-3.6.0(2).jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/Not Required/cucumber-core-1.2.5.jar" sourcepath="C:/Users/jmanera/AppData/Local/Temp/.org.sf.feeling.decompiler1513167851222/source/cucumber-core-1.2.5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/cucumber-html-0.2.6.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/cucumber-testng-1.2.5.jar" sourcepath="C:/Users/jmanera/AppData/Local/Temp/.org.sf.feeling.decompiler1513315921448/source/cucumber-testng-1.2.5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jmanera/Documents/Document/Java work/Cucumber work/Jars/testng-6.9.10.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
