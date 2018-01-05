@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/jmanera/git/Java1/Java/Cucumber/features/Myapplication.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Myapplication.feature");
 formatter.feature({
   "line": 2,
   "name": "Test Facebook Smoke Scenario",

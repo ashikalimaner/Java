@@ -22,7 +22,11 @@ public class CucumberRunner1  extends BaseClass{
 	}*/
 	public static String value;
 	
-	
+	@After
+	public void main()
+	{
+		System.out.println("Eexecuted after now");
+	}
 	
 
 }
