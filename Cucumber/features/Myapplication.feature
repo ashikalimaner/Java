@@ -1,4 +1,4 @@
-@FacebookTesting
+
 Feature: Test Facebook Smoke Scenario
 
 
