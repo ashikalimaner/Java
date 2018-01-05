@@ -13,7 +13,7 @@ import stepDefination.BackGround;
 
 @Parameters({"feature"})
 @Test
-@CucumberOptions(features={"features"},glue={"stepDefination"},plugin={"pretty", "html:target/output"/*"json:json_Output/cucmber.json"*//*"TestNG:testng/trial.xml"*/},dryRun=false,monochrome=true,strict=false)
+@CucumberOptions(features={"features"},glue={"stepDefination"}/*plugin={"pretty", "html:target/output""json:json_Output/cucmber.json""TestNG:testng/trial.xml"}*/,dryRun=false,monochrome=true,strict=false)
 public class CucumberRunner1  extends BaseClass{
 	/*static String a;
 	static
