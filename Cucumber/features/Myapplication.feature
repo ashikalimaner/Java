@@ -1,4 +1,4 @@
-
+@Functional
 Feature: Test Facebook Smoke Scenario
 
 
