@@ -1,0 +1,275 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2017-04-05 16:12:38</RunStartTime>
+        <Timezone>India Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2017-04-05 16:12:38</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration>38</Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.1.7601 Service Pack 1]]></OSInfo>
+                <HostName>M2408454</HostName>
+                <NumberOfCores>4</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>8089</TotalMemory>
+                <Locale><![CDATA[en-US]]></Locale>
+                <Timezone>India Standard Time</Timezone>
+                <User>jmanera</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+            <ToolVersion><![CDATA[14.0]]></ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name>test</Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2017-04-05 16:12:38</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration>38</Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name><![CDATA[test.LeanFtTest]]></Name>
+                    <Description/>
+                    <StartTime>2017-04-05 16:12:38</StartTime>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Duration>38</Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Step">
+                    <Data>
+                        <Name><![CDATA[Edit.sendKeys]]></Name>
+                        <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;1234&quot;</td></tr></table>]]></Description>
+                        <StartTime>2017-04-05 16:12:42</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration>4</Duration>
+                        <Extension>
+                            <Any>
+                                <TestObject>
+                                    <Path>
+                                        <Object>
+                                            <Type>Standard Windows.Window</Type>
+                                            <Name><![CDATA[Notepad]]></Name>
+                                        </Object>
+                                        <Object>
+                                            <Type>Standard Windows.Editor</Type>
+                                            <Name><![CDATA[Edit]]></Name>
+                                        </Object>
+                                    </Path>
+                                    <Operation>sendKeys</Operation>
+                                    <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;1234&quot;</td></tr></table>]]></OperationData>
+                                    <Properties>
+                                        <Property>
+                                            <Name><![CDATA[nativeClass]]></Name>
+                                            <Value><![CDATA[Edit]]></Value>
+                                        </Property>
+                                        <Property>
+                                            <Name><![CDATA[windowClassRegExp]]></Name>
+                                            <Value><![CDATA[Edit]]></Value>
+                                        </Property>
+                                        <Property>
+                                            <Name><![CDATA[indexType]]></Name>
+                                            <Value><![CDATA["location"]]></Value>
+                                        </Property>
+                                    </Properties>
+                                </TestObject>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                <IconKey>Editor</IconKey>
+                                <CustomUIElements>
+                                    <DescriptionLabel>Data</DescriptionLabel>
+                                </CustomUIElements>
+                                <Descriptive>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Notepad]]></Name>
+                                                <IconKey>Window</IconKey>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Editor</Type>
+                                                <Name><![CDATA[Edit]]></Name>
+                                                <IconKey>Editor</IconKey>
+                                            </Object>
+                                        </Path>
+                                    </TestObject>
+                                </Descriptive>
+                                <HideContextInfo>true</HideContextInfo>
+                            </Any>
+                        </Extension>
+                    </Data>
+                </ReportNode>
+                <ReportNode type="Step">
+                    <Data>
+                        <Name><![CDATA[Notepad.close]]></Name>
+                        <Description/>
+                        <StartTime>2017-04-05 16:13:15</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration>1</Duration>
+                        <Extension>
+                            <Any>
+                                <TestObject>
+                                    <Path>
+                                        <Object>
+                                            <Type>Standard Windows.Window</Type>
+                                            <Name><![CDATA[Notepad]]></Name>
+                                        </Object>
+                                    </Path>
+                                    <Operation>close</Operation>
+                                    <OperationData/>
+                                    <Properties>
+                                        <Property>
+                                            <Name><![CDATA[windowTitleRegExp]]></Name>
+                                            <Value><![CDATA[Notepad]]></Value>
+                                        </Property>
+                                        <Property>
+                                            <Name><![CDATA[indexType]]></Name>
+                                            <Value><![CDATA["location"]]></Value>
+                                        </Property>
+                                    </Properties>
+                                </TestObject>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                <IconKey>Window</IconKey>
+                                <CustomUIElements>
+                                    <DescriptionLabel>Data</DescriptionLabel>
+                                </CustomUIElements>
+                                <Descriptive>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Notepad]]></Name>
+                                                <IconKey>Window</IconKey>
+                                            </Object>
+                                        </Path>
+                                    </TestObject>
+                                </Descriptive>
+                                <HideContextInfo>true</HideContextInfo>
+                            </Any>
+                        </Extension>
+                    </Data>
+                </ReportNode>
+                <ReportNode type="Step">
+                    <Data>
+                        <Name><![CDATA[Don't Save.click]]></Name>
+                        <Description/>
+                        <StartTime>2017-04-05 16:13:15</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration>1</Duration>
+                        <Extension>
+                            <Any>
+                                <TestObject>
+                                    <Path>
+                                        <Object>
+                                            <Type>Standard Windows.Window</Type>
+                                            <Name><![CDATA[Notepad]]></Name>
+                                        </Object>
+                                        <Object>
+                                            <Type>Standard Windows.Dialog</Type>
+                                            <Name><![CDATA[Notepad]]></Name>
+                                        </Object>
+                                        <Object>
+                                            <Type>Standard Windows.Button</Type>
+                                            <Name><![CDATA[Don't Save]]></Name>
+                                        </Object>
+                                    </Path>
+                                    <Operation>click</Operation>
+                                    <OperationData/>
+                                    <Properties>
+                                        <Property>
+                                            <Name><![CDATA[nativeClass]]></Name>
+                                            <Value><![CDATA[Button]]></Value>
+                                        </Property>
+                                        <Property>
+                                            <Name><![CDATA[text]]></Name>
+                                            <Value><![CDATA[Do&n't Save]]></Value>
+                                        </Property>
+                                        <Property>
+                                            <Name><![CDATA[indexType]]></Name>
+                                            <Value><![CDATA["location"]]></Value>
+                                        </Property>
+                                    </Properties>
+                                </TestObject>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                                <IconKey>Button</IconKey>
+                                <CustomUIElements>
+                                    <DescriptionLabel>Data</DescriptionLabel>
+                                </CustomUIElements>
+                                <Descriptive>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Notepad]]></Name>
+                                                <IconKey>Window</IconKey>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name><![CDATA[Notepad]]></Name>
+                                                <IconKey>Dialog</IconKey>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name><![CDATA[Don't Save]]></Name>
+                                                <IconKey>Button</IconKey>
+                                            </Object>
+                                        </Path>
+                                    </TestObject>
+                                </Descriptive>
+                                <HideContextInfo>true</HideContextInfo>
+                            </Any>
+                        </Extension>
+                    </Data>
+                </ReportNode>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>test</Name>
+                        <Description/>
+                        <StartTime>2017-04-05 16:13:16</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration>0</Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
